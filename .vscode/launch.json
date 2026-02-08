@@ -1,4 +1,16 @@
 {
   "version": "0.2.0",
-  "configurations": []
+  "configurations": [
+    {
+      "name": "Launch LeetCode Runner",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/LeetCode/bin/Debug/net9.0/LeetCode.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/LeetCode",
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
 }
