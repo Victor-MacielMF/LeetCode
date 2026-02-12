@@ -1,26 +1,10 @@
 namespace LeetCode.Problems;
 
-/// <summary>
-/// NUMERO. TÍTULO DO PROBLEMA
-/// Difficulty: Easy/Medium/Hard
-/// https://leetcode.com/problems/problem-slug/
-/// 
-/// INSTRUÇÕES:
-/// 1. Renomeie este arquivo para ProblemNUMERO_NomeDoProblema.cs
-///    Exemplo: Problem0042_TrappingRainWater.cs
-/// 
-/// 2. Atualize os valores abaixo com as informações do problema
-/// 
-/// 3. Cole o código inicial do LeetCode na seção marcada
-/// 
-/// 4. Adicione os exemplos de teste no método Run()
-/// </summary>
-public class ProblemTEMPLATE_ChangeThisName : ProblemBase
+public class ProblemXXXX_NomeDoProblema : ProblemBase // ← MUDE O NOME DA CLASSE
 {
-    // ALTERE ESTES VALORES:
-    public override int ProblemNumber => 0; // Número do problema (ex: 42)
-    public override string Title => "Problem Title Here"; // Título (ex: "Trapping Rain Water")
-    public override string Difficulty => "Easy"; // Easy, Medium, ou Hard
+    public override int ProblemNumber => 0;        // ← NÚMERO DO PROBLEMA
+    public override string Title => "Title";       // ← TÍTULO
+    public override string Difficulty => "Easy";   // ← DIFICULDADE
 
     public override void Run()
     {
@@ -28,38 +12,33 @@ public class ProblemTEMPLATE_ChangeThisName : ProblemBase
         Console.WriteLine(new string('-', 50));
         Console.WriteLine();
 
-        // TODO: Adicione os exemplos aqui
-        // Exemplo para problema com 1 input:
+        // ← ADICIONE OS EXEMPLOS AQUI
         /*
-        var input1 = "example";
-        var expected1 = 5;
-        var result1 = new Solution().SeuMetodo(input1);
-        PrintResult(1, $"input=\"{input1}\"", expected1, result1);
-        Console.WriteLine("  Explanation: Cole a explicação do LeetCode aqui");
+        // Example 1
+        var input1 = ...;
+        var expected1 = ...;
+        var result1 = new Solution().MetodoDoLeetCode(input1);
+        PrintResult(1, $"input={input1}", expected1, result1);
         Console.WriteLine();
-        */
 
-        // Exemplo para problema com 2 inputs:
-        /*
-        var nums1 = new int[] { 2, 7, 11, 15 };
-        var target1 = 9;
-        var expected1 = new int[] { 0, 1 };
-        var result1 = new Solution().SeuMetodo(nums1, target1);
-        PrintResult(1, $"nums=[{string.Join(",", nums1)}], target={target1}", 
-                    $"[{string.Join(",", expected1)}]", 
-                    $"[{string.Join(",", result1)}]");
+        // Example 2
+        var input2 = ...;
+        var expected2 = ...;
+        var result2 = new Solution().MetodoDoLeetCode(input2);
+        PrintResult(2, $"input={input2}", expected2, result2);
+        Console.WriteLine();
+
+        // Example 3
+        var input3 = ...;
+        var expected3 = ...;
+        var result3 = new Solution().MetodoDoLeetCode(input3);
+        PrintResult(3, $"input={input3}", expected3, result3);
         Console.WriteLine();
         */
     }
 
     // ============================================================
-    // COLE AQUI O CÓDIGO INICIAL DO LEETCODE
+    // ← COLE O CÓDIGO DO LEETCODE AQUI
     // ============================================================
     
-    // Exemplo:
-    // public class Solution {
-    //     public int SeuMetodo(string input) {
-    //         
-    //     }
-    // }
 }
